@@ -1,0 +1,15 @@
+# 服务名
+spring:
+  application:
+    name: sample-eureka-server
+# 端口号
+server:
+  port: 10000
+
+# Eureka 配置信息
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/
+    fetch-registry: false
+    register-with-eureka: false
