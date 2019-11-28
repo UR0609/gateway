@@ -13,6 +13,8 @@
     <modules>
         <module>eureka</module>
         <module>gateway</module>
+        <module>server</module>
+        <module>websocket</module>
     </modules>
 
     <properties>

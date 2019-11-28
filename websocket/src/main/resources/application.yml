@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bullet
+server:
+  port: 5678
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka.ljryh.com/eureka/
